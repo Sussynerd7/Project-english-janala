@@ -10,3 +10,7 @@
 .bangtext{
     font-family: "Hind Siliguri";
 }
+.activebtn{
+    background-color: rgba(0, 0, 0, 0.895);
+    color:white;
+}

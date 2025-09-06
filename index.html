@@ -8,9 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body class="">
     <header>
         <div class="navbar bg-base-100 shadow-sm  ">
             <div class="navbar-start">
@@ -27,7 +28,7 @@
                         <a href="" class="btn btn-outline btn-primary"><i class="fa-solid fa-question"></i> FAQ</a>
                     </li>
                     <li>
-                        <a href="" class="btn btn-outline btn-primary"><i class="fa-solid fa-book"></i> LEARN</a>
+                        <a href="" class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i> LEARN</a>
                     </li>
                     <li>
                         <a href="" class="btn btn-outline btn-primary "><i class="fa-solid fa-right-from-bracket"></i>
@@ -75,6 +76,35 @@
         </div>
     </section>
 
+<section>
+    <h2 class="text-5xl font-bold mb-8 text-center">
+<span class="text-sky-400 ">Let's</span> learn Vocabulary
+    </h2>
+</section>
+<div id="level-container" class=" flex gap-5 flex-wrap justify-center"></div>
+
+<section id="word-container" class=" bg-gray-100 p-10 my-10 mx-auto grid grid-cols-3 gap-5">
+<div class="text-center items-center col-span-full">
+    <img class="mx-auto" src="assets/alert-error.png" alt="">
+ nothing is here  <br>
+    এক্তি লেসসন সিলেক্ট করুন
+
+</div>   
+</section>
+<!-- Open the modal using ID.showModal() method -->
+
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <h3 class="text-lg font-bold">Hello!</h3>
+    <p class="py-4">Press ESC key or click the button below to close</p>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
 <script src="script.js">
 
 </script>
